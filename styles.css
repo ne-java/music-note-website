@@ -1,0 +1,25 @@
+body {
+    background: #F7B8A8;
+}
+
+.description {
+    margin: 10px;
+    background: #A7C4B0;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+}
+
+.purpose {
+    margin: 10px;
+    background: #F4D083;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+}
+
+h3 {
+    margin: 10px;
+}
