@@ -5,10 +5,11 @@ body {
 .description {
     margin: 10px;
     background: #A7C4B0;
-    display: inline-block;
+    display: block;
     padding: 10px;
     border-radius: 15px; 
     border: solid black 2px;
+    width: 1000px;
 }
 
 .purpose {
@@ -18,8 +19,169 @@ body {
     padding: 10px;
     border-radius: 15px; 
     border: solid black 2px;
+    width: 1000px;
 }
 
 h3 {
     margin: 10px;
+}
+
+.note-theory {
+    margin: 10px;
+    background: #6EA7A7;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 1000px;
+}
+
+.rhythm-theory {
+    margin: 10px;
+    background: #C9969D;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 1000px;
+}
+
+.treble-c {
+    margin: 10px;
+    background: #6EA7A7;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 700px;
+    height: 50px;
+}
+
+.reason {
+    margin: 10px;
+    background: #F4D083;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 700px;
+    height: 50px;
+}
+
+.description {
+    margin: 10px;
+    background: #A7C4B0;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 1450px;
+}
+
+.images {
+    margin-left: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.alto-description {
+    margin: 10px;
+    background: #FDE9E1;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 700px;
+    height: 90px;
+}
+
+.alto-c {
+    margin: 10px;
+    background: #A7C4B0;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 700px;
+    height: 90px;
+    vertical-align: top;
+}
+
+.bass-description {
+    margin: 10px;
+    background: #F4D083;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 700px;
+    height: 90px;
+    vertical-align: top;
+}
+
+.bass-c {
+    margin: 10px;
+    background: #6EA7A7;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+    width: 700px;
+    height: 90px;
+    vertical-align: top;
+}
+
+td {
+    margin: 10px;
+}
+
+.time-signature {
+    margin: 10px;
+    background: #6EA7A7;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+
+}
+
+.numerator {
+    margin: 10px;
+    background: #A7C4B0;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+}
+
+.denominator {
+    margin: 10px;
+    background: #F4D083;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+}
+
+.note-value {
+    margin: 10px;
+    background: #B6A6CA;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
+}
+
+.table {
+    margin: 10px;
+    background: #95B8C7;
+    padding: 10px;
+    border-radius: 15px; 
+    border: solid black 2px;
 }

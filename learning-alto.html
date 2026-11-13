@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,34 +13,60 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="learning-treble.html">Learning Treble Clef</a></li>
             <li><a href="learning-alto.html">Learning Alto Clef</a></li>
+            <li><a href="learning-bass.html">Learning Bass Clef</a></li>
+            <li><a href="rhythm.html">Learning Rhythm</a></li>
+            <li><a href="practice.html">Pratice Questions</a></li>
+
 
         </ul>
     </navbar>
 </header>
 
 <body>
-    <img src="alto-images/c-viola-cstring.png" width="250" height="300">
-    <img src="alto-images/d-viola-cstring.png" width="75" height="300">
-    <img src="alto-images/e-viola-cstring.png" width="75" height="300">
-    <img src="alto-images/f-viola-cstring.png" width="75" height="300">
-    <img src="alto-images/g-viola-gstring.png" width="75" height="300">
-    <img src="alto-images/a-viola-gstring.png" width="75" height="300">
-    <img src="alto-images/b-viola-gstring.png" width="75" height="300">
-    <img src="alto-images/c-viola-gstring.png" width="75" height="300">
-    <img src="alto-images/d-viola-dstring.png" width="75" height="300">
-    <img src="alto-images/e-viola-dstring.png" width="75" height="300">
-    <img src="alto-images/f-viola-dstring.png" width="75" height="300">
-    <img src="alto-images/g-viola-dstring.png" width="75" height="300">
-    <img src="alto-images/a-viola-astring.png" width="50" height="300">
-    <img src="alto-images/b-viola-astring.png" width="75" height="300">
-    <img src="alto-images/c-viola-astring.png" width="75" height="300">
-    <img src="alto-images/d-viola-astring.png" width="75" height="300">
-    <img src="alto-images/e-viola-astring.png" width="75" height="300">
-
-    <label>Enter a note:</label>
+    <h1>Alto Clef</h1>
+    <section class="alto-description">
+        <p>The Alto Clef is mainly used by Violas, who are inbetween the range of the Treble Clef and Bass Clef, so
+            musicians decided
+            to create a clef that meets half-way inbetween. Normally, the viola is the only one who reads this clef,
+            though some cellists
+            if needed to go higher than bass, but lower than treble might use the alto clef.
+        </p>
+    </section>
+    <section class="alto-c">
+        <p>
+            The Alto Clef is sometimes called the C clef, because of the small indent that is on the 3 looking shape,
+            which points to the 3rd line or C.
+        </p>
+    </section>
+    <p>Click each note to learn more about them!!</p>
+    <section class="images">
+        <img src="alto-images/c-viola-cstring.png" width="250" height="300">
+        <img src="alto-images/d-viola-cstring.png" width="75" height="300">
+        <img src="alto-images/e-viola-cstring.png" width="75" height="300">
+        <img src="alto-images/f-viola-cstring.png" width="75" height="300">
+        <img src="alto-images/g-viola-gstring.png" width="75" height="300">
+        <img src="alto-images/a-viola-gstring.png" width="75" height="300">
+        <img src="alto-images/b-viola-gstring.png" width="75" height="300">
+        <img src="alto-images/c-viola-gstring.png" width="75" height="300">
+        <img src="alto-images/d-viola-dstring.png" width="75" height="300">
+        <img src="alto-images/e-viola-dstring.png" width="75" height="300">
+        <img src="alto-images/f-viola-dstring.png" width="75" height="300">
+        <img src="alto-images/g-viola-dstring.png" width="75" height="300">
+        <img src="alto-images/a-viola-astring.png" width="50" height="300">
+        <img src="alto-images/b-viola-astring.png" width="75" height="300">
+        <img src="alto-images/c-viola-astring.png" width="75" height="300">
+        <img src="alto-images/d-viola-astring.png" width="70" height="300">
+        <img src="alto-images/e-viola-astring.png" width="75" height="300">
+    </section>
+    <label>Enter a note: (limited to c on c-string to e on a-string)</label>
     <input>
     <button class="note-click">Enter</button>
     <div></div>
-    
+
+    <label>Enter the position of the note on the staff! Format: 2-S (eg, 2-S represents B; C would be represented as
+        3-L) </label>
+    <input>
+    <button>Click to find out the mysterious note!</button>
 </body>
+
 </html>

@@ -1,3 +1,5 @@
+<!-- enter a position of the line numbers -> outputs the note  -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,35 +15,61 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="learning-treble.html">Learning Treble Clef</a></li>
             <li><a href="learning-alto.html">Learning Alto Clef</a></li>
+            <li><a href="learning-bass.html">Learning Bass Clef</a></li>
+            <li><a href="rhythm.html">Learning Rhythm</a></li>
+            <li><a href="practice.html">Pratice Questions</a></li>
 
         </ul>
     </navbar>
 </header>
 
 <body>
-    <img src="treble-images/g-violin-gstring.png" width="200" height="300">
-    <img src="treble-images/a-violin-gstring.png" width="60" height="300">
-    <img src="treble-images/b-vioin-gstring.png" width="60" height="300">
-    <img src="treble-images/c-violin-gstring.png" width="60" height="300">
-    <img src="treble-images/d-violin-dstring.png" width="60" height="300">
-    <img src="treble-images/e-violin-dstring.png" width="60" height="300">
-    <img src="treble-images/fsharp-violin-dstring.png" width="60" height="300">
-    <img src="treble-images/g-violin-dstring.png" width="60" height="300">
-    <img src="treble-images/a-violin-astring.png" width="60" height="300">
-    <img src="treble-images/b-violin-astring.png" width="60" height="300">
-    <img src="treble-images/c-violin-astring.png" width="60" height="300">
-    <img src="treble-images/d-violin-astring.png" width="60" height="300">
-    <img src="treble-images/e-violin-estring.png" width="60" height="300">
-    <img src="treble-images/fsharp-violin-estring.png" width="60" height="300">
-    <img src="treble-images/g-violin-estring.png" width="60" height="300"> <br>
+    <h1>Treble Clef</h1>
+    <section class="treble-c">
+        <p>The Treble Clef is mostly used by violins, though violas can still use them, just with a bit of difficulty!
+        </p>
+    </section>
+    <section class="reason">
+        <p>The reason why it the treble clef is sometimes called the g clef, is because the swirl on the inside (do you
+            see it?) points to the 2nd line, which corresponds with the note G!
+        <p></p>
+    </section>
+    </p>
+    <p>Click each note to learn more about them!!</p>
+    <section class="images">
+        <img src="treble-images/g-violin-gstring.png" width="200" height="300">
+        <img src="treble-images/a-violin-gstring.png" width="60" height="300">
+        <img src="treble-images/b-vioin-gstring.png" width="60" height="300">
+        <img src="treble-images/c-violin-gstring.png" width="60" height="300">
+        <img src="treble-images/d-violin-dstring.png" width="60" height="300">
+        <img src="treble-images/e-violin-dstring.png" width="60" height="300">
+        <img src="treble-images/fsharp-violin-dstring.png" width="60" height="300">
+        <img src="treble-images/g-violin-dstring.png" width="60" height="300">
+        <img src="treble-images/a-violin-astring.png" width="60" height="300">
+        <img src="treble-images/b-violin-astring.png" width="60" height="300">
+        <img src="treble-images/c-violin-astring.png" width="60" height="300">
+        <img src="treble-images/d-violin-astring.png" width="60" height="300">
+        <img src="treble-images/e-violin-estring.png" width="60" height="300">
+        <img src="treble-images/fsharp-violin-estring.png" width="60" height="300">
+        <img src="treble-images/g-violin-estring.png" width="60" height="300"> <br>
+    </section>
+    <section class="description">
+        <p>These are mostly all the notes that are in first position! Violins can reach 2 more notes without having to
+            shift, or slide up their instrument. But mainly the 2 Octave Scale of G Major represents the notes (or the
+            type
+            of notes) that each violinst should be able to play comfortably and confidently.</p>
+    </section>
 
-    <label>Enter a note:</label>
+    <label>Enter a note: (limited to 2 octaves from g on g-string to g on e-string)</label>
     <input>
     <button class="note-click">Enter</button>
     <div></div>
 
 
-
+    <label>Enter the position of the note on the staff! Format: 2-S (eg, 2-S represents A; B would be represented as
+        3-L) </label>
+    <input>
+    <button>Click to find out the mysterious note!</button>
 </body>
 
 </html>

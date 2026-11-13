@@ -1,0 +1,209 @@
+<!-- SECOND -->
+<!-- Enter the Numerator of Time Signature, Enter the denominator of time signiture -->
+<!-- outputs: 
+ The standard length of 4 notes in the time signiture (for 12/8 -> dotted quarter note)
+ the subdivision by the numerator
+ the main pulse (what should you feel this time signiture in)-->
+
+<!-- FIRST-->
+<!-- learning about time signiture first then comes the pitcures of time signitures and then comes the inputs and outputs -->
+<!-- after that comes the actual note rhythms - like quarter, eigth, sixteenth, whole, half, dotted : inputs the word form and time signiture numerator + denominator
+ - outputs how long the note is, in subdivision - (eg: 3/8, quarter note: 2 eigth notes) -->
+<!-- table of the name in us english, uk english and how to write it -->
+
+
+<!-- THIRD -->
+<!-- after that comes the learning of compounded rhythms -->
+<!-- give some examples of the rhythms and their matching words - with audio interactive features -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <navbar>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="learning-treble.html">Learning Treble Clef</a></li>
+            <li><a href="learning-alto.html">Learning Alto Clef</a></li>
+            <li><a href="learning-bass.html">Learning Bass Clef</a></li>
+            <li><a href="rhythm.html">Learning Rhythm</a></li>
+            <li><a href="practice.html">Pratice Questions</a></li>
+        </ul>
+    </navbar>
+</header>
+
+<body>
+    <h1>Rhythms</h1>
+    <p>Rhythms are a way of structure, to help the notes flow in a piece in an organised way with counting. </p>
+    <section>
+        <h3>Time Signature</h3>
+        <section class="time-signature">
+            <p>A time signature is a written symbol at the beginning of a musical piece that tells musicians how the
+                rhythm
+                and beats are organized. It looks like a fraction stacked on top of each other, though it is not a math
+                fraction!</p>
+        </section>
+        <section class="numerator">
+            <p>The Numerator-ish number, or simply the topmost number represents how many beats there are in a bar or
+                measure. A beat is a
+                sense of something, it is the steady, repeating, and unchanging pulse that you naturally tap your foot
+                or
+                nod your head to, much like a heartbeat or a ticking clock. A beat is different from a rhythm where a
+                beat
+                doesn't change
+                in a section unless told to in the music, while a rhythm is the actual pattern of long sounds, short
+                sounds,
+                and rests that all fall around the steady beat.
+            </p>
+        </section>
+        <section class="denominator">
+            <p>The denominator-ish number, or the bottom number represents how you are going to use that beat in each
+                measure. For example, 2/4, means that there are 2 beats of quarter notes in each bar. Don't worry if you
+                don't konw
+                what a quarter note is right now! All the note values are going to be covered later.
+            </p>
+        </section>
+        <p>In other words, the top number is <b>how many beats there are in a bar</b> and the bottom number is <b>what type of
+            beats there are</b></p>
+
+        <p>There are some very common time signatures such as, 2/4, 3/4, 4/4, 3/8, 6/8, 9/8, and 12/8</p>
+        <p>Here is an example of the 3/4 time signature:</p>
+        <img src="rhythm-images/3:4.png" class="images">
+
+        <p>The top number represents that there are 3 beats in one bar</p>
+        <p>The bottom number represents that each beat is one quarter note</p>
+    </section>
+    <section>
+        <label>Enter the top number of the Time Signature: </label>
+        <input><br>
+        <label>Enter the bottom number of the Time Signature: </label>
+        <input><br>
+        <button>Click to calculate the beat, the subdivision of the beat and the main pulse!</button>
+    </section>
+
+    <section>
+        <h3>Note Values</h3>
+        
+        <p class="note-value">Each note has a value, which has some mathematical sense to it. They indicate the relative duration of a
+            sound in music notation, or in other words how long or short you should play a note for!
+        </p>
+
+        <section class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>US English</th>
+                    <th>UK English</th>
+                    <th>Visual Appearance</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Whole Note</td>
+                    <td>Semi-breve</td>
+                    <td>open circle</td>
+                    <td><img src="rhythm-images/whole-note.jpg" width="30" heigth="20"></td>
+                </tr>
+                <tr>
+                    <td>Half Note</td>
+                    <td>Minium</td>
+                    <td>open circle with stem sticking up or down</td>
+                    <td><img src="rhythm-images/half-note.webp" width="30" heigth="20"></td>
+                </tr>
+                <tr>
+                    <td>Quarter Note</td>
+                    <td>Crochet</td>
+                    <td>closed circle with stem sticking up or down</td>
+                    <td><img src="rhythm-images/quarter-note.webp" width="30" heigth="20"></td>
+                </tr>
+                <tr>
+                    <td>Eigth Note</td>
+                    <td>quavers</td>
+                    <td>closed circle with stem sticking up or down with one beam</td>
+                    <td><img src="rhythm-images/eight-note.png" width="30" heigth="20"></td>
+                </tr>
+                <tr>
+                    <td>Sixteenth Note</td>
+                    <td>semi-quavers</td>
+                    <td>closed cirlce with stem sticking up or down with two beams</td>
+                    <td><img src="rhythm-images/sixteenth-note.png" width="30" heigth="20"></td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+    </section>
+
+    <section>
+        <label>Enter the word form of the rhythm: </label>
+        <input><br>
+        <label>Enter the numerator of the time signature: </label>
+        <input><br>
+        <label>Enter the denominator of the time signature: </label>
+        <input><br>
+        <button>Click to output the length of the note in subdivision!</button>
+        <div></div>
+    </section>
+
+    <h3>Guess what time it is... compound time!</h3>
+    <p>Compounded rhythms are a mixture of many different normal rhythms smushed together. Do you know why these were
+        created.... </p>
+    <p>To bring joy *cough* suffering *cough*. Yup. Welcome to the music world.</p>
+
+    <p>Compounded rhythms are very difficult to remember, if you don't master this trick. The trick is, words.</p>
+    <p>Many musicians have come up with phrases to help with playing the right rhythm. For example, strawberry
+        represents this pattern: </p>
+    <img src="rhythm-images/strawberry.webp" width="200" height="150">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Word Sound</th>
+                <th>Audio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="rhythm-images/Strawberry.png"></td>
+                <td>straw-be-ry</td>
+                <td>audio</td>
+            </tr>
+            <tr>
+                <td><img src="rhythm-images/Lemonade.png"></td>
+                <td>le-mon-ade</td>
+                <td>audio</td>
+            </tr>
+            <tr>
+                <td><img src="rhythm-images/Coffee.png"></td>
+                <td>cof-fe</td>
+                <td>audio</td>
+            </tr>
+            <tr>
+                <td><img src="rhythm-images/Cupcake.png"></td>
+                <td>cup-caaaaake</td>
+                <td>audio</td>
+            </tr>
+            <tr>
+                <td><img src="rhythm-images/triola.png"></td>
+                <td>tri-o-la</td>
+                <td>audio</td>
+            </tr>
+            <tr>
+                <td><img src="rhythm-images/banaaaana.png"></td>
+                <td>ba-naaaaaaa-na</td>
+                <td>audio</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
